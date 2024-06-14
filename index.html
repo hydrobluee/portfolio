@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body
+    class="bg-neutral-200 text-black dark:bg-black dark:text-white font-mono"
+  >
+    <!-- NAVBAR -->
+    <nav class="mt-4 md:mt-6 container">
+      <div class="flex justify-between">
+        <div class="text-white bg-green-500 rounded-b-lg">
+          <span class="font-extrabold px-2">VIVEK</span>
+        </div>
+        <div class="hidden md:block text-xl">
+          <div class="flex gap-12">
+            <a target="_blank" href="https://leetcode.com/vVek17/"
+              ><i class="fa-solid fa-code"></i
+            ></a>
+            <a target="_blank" href="https://github.com/vVek17"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/in/vvek17/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="https://x.com/vivek_1717"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/vivek_1717_/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="flex gap-8 text-xl md:gap-12">
+          <div class="relative flex justify-center items-center mr-2">
+            <button id="dark-mode" class="absolute">
+              <i class="fa-solid fa-sun"></i>
+            </button>
+            <button id="light-mode" class="absolute">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- HOME -->
+    <div
+      class="container md:flex md:flex-row-reverse md:flex-auto justify-center items-center gap-12 mt-8 md:mt-20 lg:mt-24"
+    >
+      <!-- image -->
+      <div class="flex-1 size-auto rounded-full overflow-hidden">
+        <img src="./assets/images/profilePhoto.jpg" alt="" />
+      </div>
+      <!-- content -->
+      <div class="flex-1 font-mono flex flex-col gap-12 md:gap-16">
+        <!-- text section -->
+        <div class="flex flex-col mt-10 gap-3 md:gap-4 lg:gap-5">
+          <div class="text-gray-300">
+            <span class="dark:text-neutral-300 text-neutral-600"
+              >HELLO THERE, I'M
+            </span>
+          </div>
+          <div class="text-5xl md:text-6xl lg:text-8xl">
+            <span>VIVEK VERMA</span>
+          </div>
+          <div class="text-gray-300">
+            <span class="dark:text-neutral-300 text-neutral-600 uppercase">
+              I'm a web developer with a passion for crafting beautiful and
+              functional user experiences. Front-End is my focus, back-end next!
+              Building user-friendly sleak UI web apps with a growing love for
+              DSA.
+            </span>
+          </div>
+        </div>
+        <!-- Button section -->
+        <div class="flex gap-10">
+          <a
+            target="_blank"
+            href="./resume.pdf"
+            class="flex border border-green-500 justify-around items-center gap-2 px-4 py-2"
+          >
+            <span>Resume</span>
+            <i class="fa-solid fa-download"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/vvek17/"
+            class="flex border border-green-500 justify-around items-center p-2 px-4 py-2"
+          >
+            <span>Hire Me</span>
+          </a>
+        </div>
+        <div
+          class="flex justify-center items-center border border-green-500 border-dashed size-12 pt-3"
+        >
+          <i class="fa-solid fa-arrow-down text-3xl animate-bounce"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- highlights : key points-->
+    <section class="container mt-8 md:mt-20 lg:mt-28">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="flex items-center">
+          <h1 class="text-5xl relative">
+            1.5<span
+              class="text-lg dark:text-neutral-300 text-neutral-600 absolute -top-2 -right-2"
+              >+</span
+            >
+          </h1>
+          <p class="text-lg ml-4 dark:text-neutral-300 text-neutral-600">
+            Years In Development
+          </p>
+        </div>
+        <div class="flex items-center">
+          <h1 class="text-5xl relative">
+            4<span
+              class="text-lg dark:text-neutral-300 text-neutral-600 absolute -top-2 -right-2"
+              >+</span
+            >
+          </h1>
+          <p class="text-lg ml-4 dark:text-neutral-300 text-neutral-600">
+            LeetCode Badges Won
+          </p>
+        </div>
+        <div class="flex items-center">
+          <h1 class="text-5xl relative">
+            6<span
+              class="text-lg dark:text-neutral-300 text-neutral-600 absolute -top-2 -right-2"
+              >+</span
+            >
+          </h1>
+          <p class="text-lg ml-4 dark:text-neutral-300 text-neutral-600">
+            Programming Languages
+          </p>
+        </div>
+        <div class="flex items-center">
+          <h1 class="text-5xl relative">
+            200<span
+              class="text-lg dark:text-neutral-300 text-neutral-600 absolute -top-2 -right-2"
+              >+</span
+            >
+          </h1>
+          <p class="text-lg ml-4 dark:text-neutral-300 text-neutral-600">
+            LeetCode DSA Problems Solved
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+
+    <section
+      class="flex flex-col gap-8 md:gap-14 container mt-20 md:mt-40 lg:mt-60"
+    >
+      <div class="text-4xl md:text-5xl">EXPERIENCE.</div>
+      <div class="flex flex-row flex-wrap gap-5">
+        <!-- card 1 -->
+        <div class="relative overflow-hidden rounded-xl">
+          <div class="h-96 w-72 brightness-50">
+            <img
+              class="h-full w-full object-cover"
+              src="./assets/images/geetingTshirt.JPG"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 flex flex-col gap-2 p-5 justify-center">
+            <img class="size-16" src="./assets/icons/googleIO.png" alt="" />
+            <h1 class="text-3xl text-white">Google I/O</h1>
+            <p class="text-neutral-300">
+              Guess what? I volunteered for the first time at Google I/O
+              extended Bhilai.
+            </p>
+            <p></p>
+          </div>
+        </div>
+
+        <!-- card2 -->
+
+        <div class="relative overflow-hidden rounded-xl">
+          <div class="h-96 w-72 brightness-50">
+            <img
+              class="h-full w-full object-cover"
+              src="./assets/images/leetcode2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 flex flex-col gap-2 p-5 justify-center">
+            <img class="size-16" src="./assets/icons/leetcodeLogo.svg" alt="" />
+            <h1 class="text-3xl text-white">Leetcode</h1>
+            <p class="text-neutral-300">
+              The Journey of problem solving in leetcode started from SEP-2023
+              and never stopped since.
+            </p>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div class="relative overflow-hidden rounded-xl">
+          <div class="h-96 w-72 brightness-50">
+            <img
+              class="h-full w-full object-cover"
+              src="./assets/images/hultprice2.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 flex flex-col gap-2 p-5 justify-center">
+            <img class="size-16" src="./assets/icons/hultprice.png" alt="" />
+            <h1 class="text-3xl text-white">HultPrice</h1>
+            <p class="text-neutral-300">
+              Even though we didn't win, we learned a lot about teamwork, and
+              business analysis.
+            </p>
+
+            <p></p>
+          </div>
+        </div>
+
+        <!-- card4 -->
+        <div class="relative overflow-hidden rounded-xl">
+          <div class="h-96 w-72 brightness-50">
+            <img
+              class="h-full w-full object-cover"
+              src="./assets/images/codeday.jpg"
+              alt=""
+            />
+          </div>
+          <div class="absolute inset-0 flex flex-col gap-2 p-5 justify-center">
+            <img class="size-16" src="./assets/icons/codeDayLogo.png" alt="" />
+            <h1 class="text-3xl text-white">CodeDay</h1>
+            <p class="text-neutral-300">
+              Volunteered for CodeDay, Durg. Helped students to explore the
+              future in tech.
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skills -->
+
+    <section
+      class="flex flex-col gap-8 md:gap-14 container mt-20 md:mt-40 lg:mt-60"
+    >
+      <h2 class="text-4xl md:text-5xl">MY SKILLS.</h2>
+      <div class="flex flex-wrap gap-6 md:gap-16 lg:gap-20">
+        <div
+          class="flex justify-center items-center size-32 rounded-xl bg-gray-800"
+        >
+          <i class="fa-brands fa-html5 text-8xl text-orange-600"></i>
+        </div>
+        <div
+          class="flex justify-center items-center size-32 rounded-xl bg-gray-800"
+        >
+          <i class="fa-brands fa-square-js text-8xl text-yellow-300"></i>
+        </div>
+        <div
+          class="flex justify-center items-center size-32 rounded-xl bg-gray-800"
+        >
+          <i class="fa-brands fa-css3-alt text-8xl text-blue-600"></i>
+        </div>
+        <div
+          class="flex justify-center items-center size-32 rounded-xl bg-gray-800"
+        >
+          <img src="./assets/icons/java-original.svg" class="size-24" alt="" />
+        </div>
+        <div
+          class="flex justify-center items-center size-32 rounded-xl bg-gray-800"
+        >
+          <img src="./assets/icons/leetcodeLogo.svg" class="size-24" alt="" />
+        </div>
+        <div
+          class="flex justify-center items-center size-32 rounded-xl bg-gray-800"
+        >
+          <img src="./assets/icons/tailwind-css.svg" class="size-24" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section
+      class="flex flex-col gap-8 md:gap-14 container mt-20 md:mt-40 lg:mt-60"
+    >
+      <div class="flex flex-col gap-3">
+        <h2 class="text-4xl md:text-5xl">CONTACT ME.</h2>
+        <p class="dark:text-neutral-300 text-neutral-600">let's get in touch</p>
+      </div>
+      <form id="contact-form" class="flex flex-col gap-5">
+        <div class="flex flex-col md:flex-row gap-5">
+          <input
+            name="name"
+            type="text"
+            required=""
+            id="name"
+            placeholder="Your Name"
+            class="px-4 py-2 border-2 border-dashed border-red-500 focus:border-green-500 bg-transparent focus:outline-none rounded-xl"
+          /><input
+            name="email"
+            type="email"
+            required=""
+            id="email"
+            placeholder="Your Email"
+            class="px-4 py-2 border-2 border-dashed border-red-500 focus:border-green-500 bg-transparent focus:outline-none rounded-xl"
+          />
+        </div>
+        <textarea
+          name="msg"
+          class="px-4 py-2 border-2 border-dashed border-red-500 focus:border-green-500 bg-transparent focus:outline-none max-w-4xl rounded-xl"
+          id="message"
+          placeholder="Your Message ...."
+          required=""
+          rows="10"
+          cols="30"
+        ></textarea>
+        <div class="flex relative items-center">
+          <button
+            type="submit"
+            id="submit"
+            class="px-4 py-2 gap-2 flex border-green-500 hover:bg-green-500 border-2 items-center"
+          >
+            <span>Send </span>
+            <i class="fa-solid fa-location-arrow"></i>
+          </button>
+          <p
+            id="response-message"
+            class="hidden absolute inset-0 text-green-500"
+          >
+            Thank for reaching out! I'll get back to you soon :)
+          </p>
+        </div>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container mb-5 mt-20 md:mt-40 lg:mt-60">
+      <div class="flex flex-col gap-10 text-sm">
+        <div class="dark:text-neutral-300 text-neutral-600">
+          // Major updates coming up, check back often
+        </div>
+        <div>© 2024 Vivek Verma</div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/beadf9025c.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "5Ul9KgsY6tJ5CntnP",
+      });
+    })();
+  </script>
+</html>
