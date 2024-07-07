@@ -10,11 +10,7 @@ const setTheme = (theme) => {
 };
 
 // Initialize theme based on local storage or system preference
-const currentTheme =
-  localStorage.getItem("theme") ||
-  (window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light");
+const currentTheme = localStorage.getItem("theme") || "dark"; // Always default to "dark"
 setTheme(currentTheme);
 
 darkMode.addEventListener("click", () => setTheme("dark"));
