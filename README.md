@@ -1,3 +1,3 @@
-# personal-website
-Personal Website
-Download & customize for your website
+# portfolio-website
+Portfolio Website
+Download & customise for your website
